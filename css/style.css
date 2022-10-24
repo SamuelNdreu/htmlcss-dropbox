@@ -14,6 +14,14 @@ header{
     padding: 0 1rem;
 }
 
+
+footer{
+    background-color: rgb(97, 207, 110);
+    color: white;
+    height: 40rem;
+    line-height: 300%;
+}
+
 .flex{
     display: flex;
 }
@@ -116,8 +124,28 @@ section.big-container{
     margin: auto;
 }
 
+section.free-trial{
+    background-color: pink;
+    height: 20rem;
+    padding-top: 9rem;
+}
+
+section.faq{
+    margin: 5rem auto;
+}
+
+section.footer{
+    padding-top: 5rem;
+}
+
 div.square{
     border: 2px dotted rgb(255, 0, 183);
+}
+
+div.mini-square{
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
 }
 
 div.img-partner{
