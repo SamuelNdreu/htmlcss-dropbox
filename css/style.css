@@ -8,6 +8,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    height: 5rem;
+    background-color: rgb(212, 255, 0);
+    padding: 0 1rem;
+}
+
 .flex{
     display: flex;
 }
@@ -20,20 +26,22 @@ body{
 
 .flex-centered{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
-
+.container{
+    width: 65vw;
+    margin: auto;
+}
 /* section ul li{
     list-style-type: none;
     display: inline;
   } */
-header{
-    height: 5rem;
-    background-color: rgb(212, 255, 0);
-    padding: 0 1rem;
-}
+
+
+
+
 
 section.jumbo{
     height: 46rem;
@@ -56,14 +64,27 @@ div.img-jumbo{
     border: 2px dotted lime;
 }
 
-article.individual-row{
+
+
+article.professional,
+article.advanced,
+article.enterprise{
     width: 18rem;
     height: 50rem;
     border: 2px dotted black;
-    position: relative;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
+    
     
 }
+
+
+section.plans{
+    margin-top: 10rem
+
+}
+
+
+
+
+
 
