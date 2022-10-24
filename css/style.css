@@ -31,7 +31,7 @@ header{
 }
 
 .container{
-    width: 65vw;
+    width: 99vw;
     margin: auto;
 }
 /* section ul li{
@@ -73,13 +73,71 @@ article.enterprise{
     height: 50rem;
     border: 2px dotted black;
     display: inline-block;
+    margin: 1.3rem;
 
+}
+section.plans-detail{
+    margin: 2rem;
 }
 
 
 section.find-your-plan{
     margin-top: 10rem
 
+}
+
+section.office-contact{
+    width: 70rem;
+    height: 20rem;
+    border: 2px dotted black;
+}
+
+section.partner{
+    height: 30rem;
+}
+
+section.operations{
+    height: 30rem;
+}
+
+div.tool{
+    height: 25rem;
+    width: 20rem;
+    border: 2px dotted lime;
+    margin: 2rem;
+}
+
+section.squares{
+    border: 2px dotted rgb(255, 0, 183);
+    height: 50rem;
+    width: 100%;
+}
+section.big-container{
+    margin: auto;
+}
+
+div.square{
+    border: 2px dotted rgb(255, 0, 183);
+}
+
+div.img-partner{
+    width: 65%;
+    height: 30rem;
+    border: 3px dotted violet;
+}
+
+div.find-partner{
+    width: 35%;
+    height: 30rem;
+    border: 2px dotted rgb(0, 64, 255);
+}
+
+
+div.team{
+    height: 20rem;
+    width: 68rem;
+    border: 2px dashed blue;
+    margin: 5rem auto;
 }
 
 
