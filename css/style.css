@@ -10,8 +10,10 @@ body{
 
 header{
     height: 5rem;
-    background-color: rgb(212, 255, 0);
+    background-color: rgb(255, 255, 255);
     padding: 0 1rem;
+    position: fixed;
+    width: 100vw;
 }
 
 
@@ -38,6 +40,18 @@ footer{
     align-items: center;
 }
 
+.flex-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .container{
     width: 99vw;
     margin: auto;
@@ -47,56 +61,138 @@ footer{
     display: inline;
   } */
 
+.container-intro{
+    width: 55vw;
+    margin: 0 auto;
+}
+
+.container-little{
+    width: 55vw;
+    margin: 0 auto;
+
+}
+
+h1{
+    font-weight: 800;
+    font-size: 5rem;
+    text-align: start;
+    padding: 6rem 0 0 3rem;
+    width: 60vw;
+    margin: auto;
+}
+
+h2{
+    text-align: start;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+h3{
+    font-size: xx-large;
+}
+h4{
+    font-size: 2rem;}
 
 
 
+
+
+p{
+padding: 2rem 0;}
+
+p.grey{
+    padding: 0%;
+    color: #999a9c;
+}
 
 section.jumbo{
     height: 46rem;
     background-color: #b4d0e7;
+
 }
 
 div.jumbotron{
     border: 2px dashed rgb(0, 0, 0);
     height: 30rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
+    justify-content: center;
+    width: 60%;
 }
 
 div.trial{
-    width: 40%;
+    width: 30%;
     border: 2px dotted lime;
 }
 
 div.img-jumbo{
-    width: 60%;
+    width: 50%;
     border: 2px dotted lime;
+    background-image: url(../imgs/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
 }
-
+div.img-partner{
+background-image: url(../imgs/partner.png);
+background-repeat: no-repeat;
+background-size: contain;
+}
+div.padding{
+padding: 1rem;
+}
 
 
 article.professional,
 article.advanced,
 article.enterprise{
-    width: 18rem;
-    height: 50rem;
+    width: 20rem;
+    height: 82rem;
     border: 2px dotted black;
     display: inline-block;
     margin: 1.3rem;
+    text-align: center;
+    
 
 }
+/* button sections */
+button.inizia{
+    color: white;
+    background-color: #0061ff;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+div button.download{
+    color: white;
+    background-color: #0061ff;
+    padding: 1rem 2rem;
+    border: none;
+}
+div.input{
+text-align: start;
+margin: 2rem;
+}
+
+/* Section Part */
+
+section.leftheader span,
+section.rightheader span{
+padding: 0 2rem;
+}
+
+
 section.plans-detail{
     margin: 2rem;
 }
 
 
 section.find-your-plan{
-    margin-top: 10rem
+    margin-top: 20rem
 
 }
 
 section.office-contact{
-    width: 70rem;
-    height: 20rem;
+    width: 55vw;
+    margin: 0 auto;
     border: 2px dotted black;
 }
 
@@ -106,13 +202,22 @@ section.partner{
 
 section.operations{
     height: 30rem;
+    
+}
+section h2{
+    text-align: center;
+    margin-top: 4rem;
 }
 
 div.tool{
-    height: 25rem;
+    height: 37rem;
     width: 20rem;
     border: 2px dotted lime;
     margin: 2rem;
+}
+
+div.tool img{
+    width: 19rem;
 }
 
 section.squares{
@@ -138,13 +243,17 @@ section.footer{
     padding-top: 5rem;
 }
 
+section.footer ul li{
+    list-style: none;
+}
+
 div.square{
     border: 2px dotted rgb(255, 0, 183);
 }
 
 div.mini-square{
-    height: 10rem;
-    width: 10rem;
+    height: 20rem;
+    width: 20rem;
     background-color: red;
 }
 
@@ -160,12 +269,19 @@ div.find-partner{
     border: 2px dotted rgb(0, 64, 255);
 }
 
+div.singolo{
+    margin: 0.5rem;
+    text-align: center;
+}
 
-div.team{
+
+section.seller-office{
     height: 20rem;
     width: 68rem;
     border: 2px dashed blue;
     margin: 5rem auto;
+    
+    
 }
 
 
