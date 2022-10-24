@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* section ul li{
+    list-style-type: none;
+    display: inline;
+  } */
+header{
+    height: 5rem;
+    background-color: rgb(212, 255, 0);
+    padding: 0 1rem;
+}
+
+section.container-everything-you-need{
+    background-color: #489fdd;
+    height: 51rem;
+    width: 100%;
+    border: dashed 3px red;
+}
+
+
+
+
+
+
+
+.container-your-plan{
+    background-color: #455662;
+    height: 51rem;
+    width: 100%;
+    border: dashed 3px yellow;
+}
+
+
