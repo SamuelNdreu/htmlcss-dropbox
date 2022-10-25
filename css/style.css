@@ -9,13 +9,29 @@ body{
 }
 
 header{
-    height: 5rem;
+    height: 80px;
     background-color: rgb(255, 255, 255);
     padding: 0 1rem;
     position: fixed;
     width: 100vw;
 }
 
+header nav{
+    width: 100%;
+    height: 100%;
+}
+header nav>ul{
+    background-color: white;
+    width:25%;
+    list-style: none;
+    margin-top: 0.5rem;
+    
+}
+
+header nav>ul li{
+    display: inline;
+    
+}
 
 footer{
     background-color: rgb(97, 207, 110);
@@ -50,6 +66,10 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.flex-wrap{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 .fa-sharp{
     font-size: 4rem;
@@ -57,8 +77,8 @@ footer{
 
 
 .container{
-    width: 99vw;
-    margin: auto;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 /* section ul li{
     list-style-type: none;
@@ -116,10 +136,11 @@ section.jumbo{
 
 div.jumbotron{
     border: 2px dashed rgb(0, 0, 0);
-    height: 30rem;
-    margin-top: 4rem;
+    height: 500px;
+    margin-top: 2rem;
     justify-content: center;
-    width: 60%;
+    
+    
 }
 
 div.trial{
@@ -128,12 +149,13 @@ div.trial{
 }
 
 div.img-jumbo{
-    width: 50%;
+    width: 70%;
     border: 2px dotted lime;
-    background-image: url(../imgs/jumbo.png);
+    /* background-image: url(../imgs/jumbo.png); */
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5rem;
+    background-color: #61082b;
 }
 div.img-partner{
 background-image: url(../imgs/partner.png);
@@ -178,10 +200,10 @@ margin: 2rem;
 
 /* Section Part */
 
-section.leftheader span,
+/* section.leftheader span,
 section.rightheader span{
 padding: 0 2rem;
-}
+} */
 
 
 section.plans-detail{
@@ -190,7 +212,7 @@ section.plans-detail{
 
 
 section.find-your-plan{
-    margin-top: 20rem
+    margin-top: 15rem
 
 }
 
@@ -210,7 +232,7 @@ section.operations{
 }
 section h2{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 div.tool{
@@ -224,12 +246,11 @@ div.tool img{
     width: 19rem;
 }
 
-section.squares{
-    border: 2px dotted rgb(255, 0, 183);
-    background-color: #f5f5f5;
 
+
+section#clients h2{
+    margin-bottom: 2rem;
 }
-
 
 section.free-trial{
     background-color: pink;
@@ -249,26 +270,27 @@ section.footer ul li{
     list-style: none;
 }
 
-div.square{
-    border: 2px dotted rgb(255, 0, 183);
-    width: calc(100% / 3);
+div.squares{
+    height: 600px;
+    background-color: #61082b;
+    margin-top: 2rem;
+    
 }
-div.big-square{
-    flex-grow: 1;
-    background-color: #f5f5f5;
-    border: 1rem solid transparent;
-
+div.squares .square{
+width: calc(100vw / 3);
+height: calc(100vw / 3);
+background-color: grey;
+border:2px dashed red;
 }
 
 div.mini-square{
-    height: 300px;
-    width: 300px;
-    /* background-color: red; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    border:1rem solid transparent;
+    width: 150px;
+    height: 150px;
+    background-color: #0061ff;
 }
+
+
+
 
 
 div.img-partner{
@@ -293,13 +315,11 @@ section.seller-office{
     height: 20rem;
     width: 68rem;
     border: 2px dashed blue;
-    margin: 5rem auto;
-    
-    
+    margin: 5rem auto;  
 }
 
-/* Square section ONE BY ONE */
-div.designit{
+/* Square section ONE BY ONE */ 
+/* div.designit{
     background-color: #a2d39b;
     border: 1rem solid #d1e9cd;
     background-image: url(../imgs/designit.svg); 
@@ -332,8 +352,7 @@ div.lonely-planet{
 div.clearchannel{
     background-color: rgb(255, 216, 48);
     background-image: url(../imgs/clear_channel.svg);
-}
-
+} */
 
 
 

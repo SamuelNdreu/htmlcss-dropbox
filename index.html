@@ -18,22 +18,21 @@
     <!-- Main Header with nav menu -->
     <header>
         <!-- Main Container With Menu Items -->
-        <section class="left-header">
-            <span><img src="imgs/logo-small.png" alt="logo dropbox"></span>
-            <span>Perchè Dropbox</span> 
-            <span>Funzioni</span> 
-            <span>Piani e Prezzi</span>    
-        </section>
-        <!-- Right Main nav -->
-        <section class="right-header">
-            <span>Supporto </span>
-            <span>Contatta l'ufficio vendite</span> 
-            <span>Accedi</span> 
-            <span><button class="inizia">Inizia</button></span>
-        </section>
+        <nav class="flex flex-between">
+            <ul>
+                <li><img src="imgs/logo-small.png" alt="logo dropbox"></li>
+                <li>Perchè Dropbox</li> 
+                <li>Funzioni</li> 
+                <li>Piani e Prezzi</li>  
+            </ul>
+            <ul>
+            <li>Supporto </li>
+            <li>Contatta l'ufficio vendite</li> 
+            <li>Accedi</li> 
+            <li><button class="inizia">Inizia</button></li>
+            </ul>
+        </nav>    
     
-
-        </nav>
     </header>
 
     <!-- Main Layout -->
@@ -65,7 +64,7 @@
                     <label for="contactChoice1">Fatturazione Mensile</label>
                     <input type="radio" name="fatturazione">
                     <label for="contactChoice2">Fatturazione Annuale</label>
-                        </div>  
+                </div>  
         </section>        
         <section class="plans-detail flex flex-centered flex-between">
         <!-- Column With plans -->
@@ -160,26 +159,29 @@
                 <div class="tool"></div>
             </div>
 
-
-            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-            <a href="">Scopri di più sui nostri clienti</a>
+        </section>
+        <section id="clients">
+            <div class="container">
+                <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                <a href="">Scopri di più sui nostri clienti</a>
+            </div>
             <!-- MAIN CUSTOMER SPONSORS -->
-        <section class="squares flex flex-between">
-            <div class="square square-first flex flex-wrap">
-                <div class="mini-square designit"></div>
-                <div class="mini-square arizona"></div>
-                <div class="mini-square un-florida"></div>
-                <div class="mini-square topps"></div>
-            </div>
-            <div class="square square-middle">
-                <div class="big-square big-designit"></div>
-                
-            </div>
-            <div class="square square-last flex flex-wrap">
-                <div class="mini-square wbr"></div>
-                <div class="mini-square hearst"></div>
-                <div class="mini-square lonely-planet"></div>
-                <div class="mini-square clear channel"></div>
+            <div class="squares flex">
+                <div class="square">
+                    <div class="mini-square designit"></div>
+                    <div class="mini-square arizona"></div>
+                    <div class="mini-square un-florida"></div>
+                    <div class="mini-square topps"></div>
+                </div>
+                <div class="square">
+                    <div class="big-designit"></div>
+                </div>
+                <div class="square">
+                    <div class="wbr"></div>
+                    <div class="hearst"></div>
+                    <div class="lonely-planet"></div>
+                    <div class="clear channel"></div>
+                </div>
             </div>
         </section>
             <!-- Free trial container -->
