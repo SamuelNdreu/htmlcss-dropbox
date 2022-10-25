@@ -255,13 +255,13 @@ section.operations{
 }
 section h2{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 8rem;
 }
 
 div.tool{
     height: 37rem;
     width: 20rem;
-    border: 2px dotted lime;
+    /* border: 2px dotted lime; */
     margin: 2rem;
 }
 
