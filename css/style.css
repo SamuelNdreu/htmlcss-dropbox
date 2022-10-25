@@ -34,9 +34,9 @@ header nav>ul li{
 }
 
 footer{
-    background-color: rgb(97, 207, 110);
+    background-color: rgb(0, 0, 0);
     color: white;
-    height: 40rem;
+    height: 30rem;
     line-height: 300%;
 }
 
@@ -74,6 +74,9 @@ footer{
 .fa-sharp{
     font-size: 4rem;
 }
+.fa-check{
+    color: #0061ff;
+}
 
 
 .container{
@@ -95,6 +98,7 @@ footer{
     margin: 0 auto;
 
 }
+
 
 h1{
     font-weight: 800;
@@ -118,7 +122,9 @@ h4{
 
 
 
-
+h5{
+    font-size: 1.5rem;
+}
 
 p{
 padding: 2rem 0;}
@@ -135,7 +141,7 @@ section.jumbo{
 }
 
 div.jumbotron{
-    border: 2px dashed rgb(0, 0, 0);
+    /* border: 2px dashed rgb(0, 0, 0); */
     height: 500px;
     margin-top: 2rem;
     justify-content: center;
@@ -145,17 +151,17 @@ div.jumbotron{
 
 div.trial{
     width: 30%;
-    border: 2px dotted lime;
+    /* border: 2px dotted lime; */
 }
 
 div.img-jumbo{
     width: 70%;
-    border: 2px dotted lime;
-    /* background-image: url(../imgs/jumbo.png); */
+    /* border: 2px dotted lime; */
+    background-image: url(../imgs/jumbo.png); 
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5rem;
-    background-color: #61082b;
+    /* background-color: #61082b; */
 }
 div.img-partner{
 background-image: url(../imgs/partner.png);
@@ -172,10 +178,11 @@ article.advanced,
 article.enterprise{
     width: 20rem;
     height: 82rem;
-    border: 2px dotted black;
+    border: 1px solid rgb(198, 198, 198);
     display: inline-block;
     margin: 1.3rem;
-    text-align: center;
+    text-align: left;
+    padding-left: 1rem;
     
 
 }
@@ -193,10 +200,26 @@ div button.download{
     padding: 1rem 2rem;
     border: none;
 }
-div.input{
-text-align: start;
-margin: 2rem;
+
+div button.trial-download{
+    color: rgb(0, 0, 0);
+    background-color: #fafcff;
+    padding: 1rem 2rem;
+    border: none;
 }
+section button.partner{
+    color: rgb(0, 0, 0);
+    background-color: #fafcff;
+    padding: 1rem 2rem;
+    border: solid 1 px black ;
+
+}
+div.input{
+    text-align: start;
+    margin: 2rem;
+    font-size: 1.1rem;
+}
+
 
 /* Section Part */
 
@@ -217,9 +240,9 @@ section.find-your-plan{
 }
 
 section.office-contact{
-    width: 55vw;
+    
     margin: 0 auto;
-    border: 2px dotted black;
+    
 }
 
 section.partner{
@@ -253,9 +276,11 @@ section#clients h2{
 }
 
 section.free-trial{
-    background-color: pink;
+    background-color: #b4d0e7;
     height: 20rem;
     padding-top: 9rem;
+    color: #61082b;
+    font-size: 3rem;
 }
 
 section.faq{
@@ -272,37 +297,56 @@ section.footer ul li{
 
 div.squares{
     height: 600px;
-    background-color: #61082b;
+    /* background-color: #61082b; */
     margin-top: 2rem;
+    position: relative;
+    
     
 }
 div.squares .square{
 width: calc(100vw / 3);
-height: calc(100vw / 3);
-background-color: grey;
-border:2px dashed red;
+background-color: #f5f5f5;
+
+/* background-color: grey; */
+/* border:2px dashed red; */
 }
 
 div.mini-square{
-    width: 150px;
-    height: 150px;
-    background-color: #0061ff;
+    width: 50%;
+    height: 50%;
+    /* background-color: #0061ff; */
+}
+div.square hr.hr-color{
+    position: absolute;
+    bottom: 69%;
+    left: 36%;
+    width: 6%;
+    color: dimgrey;
+    opacity: 20%;
+    
+}
+div.square p{
+    position: absolute;
+    bottom: 36%;
+    left: 36%;
+    width: 25%;
+
 }
 
-
-
-
-
 div.img-partner{
-    width: 65%;
+    width: 35%;
     height: 30rem;
-    border: 3px dotted violet;
+    /* border: 3px dotted violet; */
 }
 
 div.find-partner{
-    width: 35%;
+    width: 22%;
     height: 30rem;
-    border: 2px dotted rgb(0, 64, 255);
+    /* border:1px solid black; */
+    
+}
+div.find-partner p{
+    width: 85%;
 }
 
 div.singolo{
@@ -314,46 +358,79 @@ div.singolo{
 section.seller-office{
     height: 20rem;
     width: 68rem;
-    border: 2px dashed blue;
+    border:1px solid black;
     margin: 5rem auto;  
 }
 
 /* Square section ONE BY ONE */ 
-/* div.designit{
+div.designit{
     background-color: #a2d39b;
     border: 1rem solid #d1e9cd;
-    background-image: url(../imgs/designit.svg); 
+    background-image: url(../imgs/designit.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    
+    
 }
 div.arizona{
         background-color: #61082b;
         background-image: url(../imgs/arizona_state_university.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
 }
 div.un-florida{
-    background-color: #61082b;
+    background-color: #0061ff;
     background-image: url(../imgs/university_of_florida.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 div.topps{
     background-color: #ff1c1c;
     background-image: url(../imgs/topps.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 div.wbr{
     background-color:#d5001f;
     background-image: url(../imgs/world_bicycle_relief.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 
 }
 div.hearst{
     background-color: #b4d0e7;
-    background-image: url(../imgs/lonely_planet.svg);
+    background-image: url(../imgs/hearst_corp.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 div.lonely-planet{
     background-color: rgb(13, 36, 129);
     background-image: url(../imgs/lonely_planet.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 }
 div.clearchannel{
     background-color: rgb(255, 216, 48);
     background-image: url(../imgs/clear_channel.svg);
-} */
-
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+img.big-designit{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top:1%;
+    left:36%;
+    
+}
 
 
 
