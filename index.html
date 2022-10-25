@@ -19,16 +19,16 @@
     <header>
         <!-- Main Container With Menu Items -->
         <nav id="top-nav" class="flex">
-            <div id="left-side" class="flex">
+            <div id="left-side" class="flex hover">
                 <img src="./imgs/logo-small.png" alt="Dropbox logo">
                 <a href="">Perchè Dropbox</a>
                 <a href="">Funzioni</a>
                 <a href="">Piani e Prezzi</a>
             </div>
-            <div id="right-side" class="flex">
+            <div id="right-side" class="flex hover">
                 <a href="">Supporto</a>
                 <a href="">Contatta l'ufficio vendite</a>
-                <button class="style-button">Accedi</button>
+                <button class="login-button">Accedi</button>
                 <button class="inizia">Inizia</button>
             </div>
         </nav>   
@@ -47,6 +47,7 @@
                         il flusso di lavoro esistente.</p>
                     <button class="download">Inizia la tua prova gratuita</button>
                     <p>Annulla in qualsiasi momento</p>
+                    <i class="fa-solid fa-download arrow"></i>
                 </div>    
                 <div class="img-jumbo">
 
@@ -121,12 +122,21 @@
             </article>
         </section>
         <!-- Team contact seller office -->
-        <section class="seller-office">
-            <div class="singolo"><i class="fa-solid fa-people-group"></i> Team</div><hr>
-            <p>Enterprise</p>
-            <p>Contatta l'ufficio vendite</p>
-            <br>
-            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+        <section id="bottom-cards" class="seller-office">
+
+            <article class="bottom-cards">
+                <div class="singolo user flex-center">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Team</span>
+                </div>
+                <div class="plan-cost flex">
+                    <h3>Enterprise</h3>
+                    <button class="style-button bg-blue">Contatta l'ufficio vendite</button>
+                </div>
+                <div class="info">
+                    <span id="price"><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
+                    <p>Soluzioni personalizzare e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+            
                         
         </section>
 

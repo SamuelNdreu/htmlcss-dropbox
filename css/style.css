@@ -15,8 +15,12 @@ header{
     position: fixed;
     width: 100vw;
 }
-
-
+header a{
+    color: rgb(0, 0, 0);
+}
+header a:hover{
+    color:#0061ff
+}
 
 
 footer{
@@ -25,6 +29,13 @@ footer{
     height: 28.6rem;
     line-height: 300%;
     font-size: 0.8rem;
+}
+footer ul li{
+    color: #0061ff;
+    cursor: pointer;
+}
+footer ul li:hover{
+    color: white
 }
 footer hr{
     width: 10%;
@@ -105,7 +116,7 @@ a{
 h1{
     font-weight: 800;
     font-size: 5rem;
-    text-align: start;
+    justify-content: flex-start;
     padding: 6rem 0 0 3rem;
     width: 60vw;
     margin: auto;
@@ -115,6 +126,7 @@ h2{
     text-align: start;
     margin-bottom: 3rem;
     font-size: 2.5rem;
+    
 }
 h3{
     font-size: xx-large;
@@ -137,7 +149,7 @@ p.grey{
 }
 
 section.jumbo{
-    height: 46rem;
+    height: 47rem;
     background-color: #b4d0e7;
 
 }
@@ -194,6 +206,11 @@ button.inizia{
     background-color: #0061ff;
     padding: 0.5rem 1rem;
     border: none;
+    cursor: pointer;
+}
+button.inizia:hover{
+    color: black;
+    background-color: grey;
 }
 
 div button.download{
@@ -202,12 +219,22 @@ div button.download{
     padding: 1rem 2rem;
     border: none;
 }
+div button.download:hover{
+    background-color: #707070;
+    color: black;
+    cursor: pointer;
+}
 
 div button.trial-download{
     color: rgb(0, 0, 0);
     background-color: #fafcff;
     padding: 1rem 2rem;
     border: none;
+    cursor: pointer;
+}
+div button.trial-download:hover{
+    color:black;
+    background-color: #0061ff;
 }
 
 
@@ -215,8 +242,33 @@ section button.partner{
     color: rgb(0, 0, 0);
     background-color: #fafcff;
     padding: 1rem 2rem;
-    border: solid 1 px black ;
+    border: solid 1 px black;
+}
+.login-button{
+    color: white;
+    background-color: #636466;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+button.login-button:hover{
+    color: black;
+    background-color: #ff0000;
+}
 
+.style-button{
+    color: white;
+    background-color: #0061ff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer; 
+}
+button.style-button:hover{
+        color:black;
+        background-color: #8c8c8c;
+}
+.arrow{
+    font-size: 2rem;
 }
 
 /* Section Part */
@@ -247,7 +299,8 @@ section.partner{
     height: 30rem;
 }
 
-section.operations{
+div.operations{
+    margin:6rem;
     height: 30rem;
     
 }
@@ -282,12 +335,20 @@ section.footer ul li{
 }
 
 section.seller-office{
-    height: 20rem;
+    height: 15rem;
     width: 68rem;
-    border:1px solid black;
+    border:1px solid rgb(151, 151, 151);
     margin: 5rem auto;  
 }
 /* Div section containers */
+div.info{
+    line-height: 3;
+    padding: 0 1rem 1rem 1rem;
+}
+article div.user {
+    border-bottom: 1px solid  grey;
+    margin-bottom: 1px;
+}
 
 div.tool{
     height: 37rem;
@@ -379,6 +440,7 @@ div.designit{
     background-position: center;
     
     
+    
 }
 div.arizona{
         background-color: #61082b;
@@ -386,6 +448,7 @@ div.arizona{
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: center;
+        
 }
 div.un-florida{
     background-color: #0061ff;
@@ -393,6 +456,7 @@ div.un-florida{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
+    
 }
 div.topps{
     background-color: #ff1c1c;
@@ -465,3 +529,23 @@ div#left-side img{
 nav#top-nav img{
     width: 150px;
 }
+
+/* ID SECTIONS */
+section#enterprise-bottom{
+    width: 100%;
+    /* height: 250px; */
+    margin: 3rem 0;
+    border: 1px solid grey;
+    
+}
+.bottom-cards div.plan-cost{
+    justify-content: space-between;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+div.info{
+        line-height: 3;
+        padding: 0 1rem 1rem 1rem;
+}
+
+
+
