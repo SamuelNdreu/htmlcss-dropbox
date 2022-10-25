@@ -19,6 +19,7 @@ header{
 header nav{
     width: 100%;
     height: 100%;
+    justify-content: space-between;
 }
 header nav>ul{
     background-color: white;
@@ -26,18 +27,23 @@ header nav>ul{
     list-style: none;
     margin-top: 0.5rem;
     
+    
 }
 
 header nav>ul li{
-    display: inline;
-    
+    display: inline; 
 }
+
 
 footer{
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 30rem;
+    height: 28.6rem;
     line-height: 300%;
+    font-size: 0.8rem;
+}
+footer hr{
+    width: 10%;
 }
 
 .flex{
