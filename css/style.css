@@ -16,23 +16,7 @@ header{
     width: 100vw;
 }
 
-header nav{
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-}
-header nav>ul{
-    background-color: white;
-    width:25%;
-    list-style: none;
-    margin-top: 0.5rem;
-    
-    
-}
 
-header nav>ul li{
-    display: inline; 
-}
 
 
 footer{
@@ -77,6 +61,11 @@ footer hr{
     flex-wrap: wrap;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .fa-sharp{
     font-size: 4rem;
 }
@@ -103,6 +92,13 @@ footer hr{
     width: 55vw;
     margin: 0 auto;
 
+}
+
+.style-button{
+    padding: 0.6rem 1.25rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
 }
 
 
@@ -213,6 +209,8 @@ div button.trial-download{
     padding: 1rem 2rem;
     border: none;
 }
+
+
 section button.partner{
     color: rgb(0, 0, 0);
     background-color: #fafcff;
@@ -220,12 +218,6 @@ section button.partner{
     border: solid 1 px black ;
 
 }
-div.input{
-    text-align: start;
-    margin: 2rem;
-    font-size: 1.1rem;
-}
-
 
 /* Section Part */
 
@@ -262,20 +254,8 @@ section.operations{
 section h2{
     text-align: center;
     margin-top: 8rem;
+    
 }
-
-div.tool{
-    height: 37rem;
-    width: 20rem;
-    /* border: 2px dotted lime; */
-    margin: 2rem;
-}
-
-div.tool img{
-    width: 19rem;
-}
-
-
 
 section#clients h2{
     margin-bottom: 2rem;
@@ -300,6 +280,26 @@ section.footer{
 section.footer ul li{
     list-style: none;
 }
+
+section.seller-office{
+    height: 20rem;
+    width: 68rem;
+    border:1px solid black;
+    margin: 5rem auto;  
+}
+/* Div section containers */
+
+div.tool{
+    height: 37rem;
+    width: 20rem;
+    /* border: 2px dotted lime; */
+    margin: 2rem;
+}
+
+div.tool img{
+    width: 19rem;
+}
+
 
 div.squares{
     height: 600px;
@@ -360,13 +360,14 @@ div.singolo{
     text-align: center;
 }
 
-
-section.seller-office{
-    height: 20rem;
-    width: 68rem;
-    border:1px solid black;
-    margin: 5rem auto;  
+div.input{
+    text-align: start;
+    margin: 2rem;
+    font-size: 1.1rem;
 }
+
+
+
 
 /* Square section ONE BY ONE */ 
 div.designit{
@@ -440,3 +441,27 @@ img.big-designit{
 
 
 
+/* header top id */
+nav#top-nav{
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+#left-side,
+#right-side{
+    width: 50%;
+    align-items: center;
+    font-size: 1.1rem;   
+}
+#right-side{
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+nav#top-nav a,
+div#left-side img{
+    padding: 0 1rem;
+}
+nav#top-nav img{
+    width: 150px;
+}
