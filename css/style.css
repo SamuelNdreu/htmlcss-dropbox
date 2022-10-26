@@ -79,6 +79,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: red;
+}
 
 .fa-sharp{
     font-size: 4rem;
@@ -186,6 +189,9 @@ div.img-jumbo{
     /* background-color: #61082b; */
     
 }
+
+
+
 div.img-partner{
 background-image: url(../imgs/partner.png);
 background-repeat: no-repeat;
