@@ -18,12 +18,17 @@
     <!-- Main Header with nav menu -->
     <header>
         <!-- Main Container With Menu Items -->
-        <nav id="top-nav" class="flex">
-            <div id="left-side" class="flex hover">
+        <nav id="top-nav" class="flex">    
+            <div id="left-side" class="flex hover"> 
                 <a href="https://www.dropbox.com"><img class="main-logo" src="./imgs/logo-small.png" alt="Dropbox logo"></a>
                 <a href="">Perchè Dropbox</a>
                 <a href="">Funzioni</a>
-                <a href="">Piani e Prezzi</a>
+                <div class="dropdown">
+                    <a class="dropbtn" href="">Piani e Prezzi</a></button>
+                    <div class="dropdown-content">
+                        <a href="#plans">Scopri i nostri piani</a>
+                        <a href="#team">Scopri i nostri team</a>                       
+                    </div>
             </div>
             <div id="right-side" class="flex hover">
                 <a href="">Supporto</a>
@@ -31,7 +36,7 @@
                 <a href="">Accedi</a>
                 <button class="inizia">Inizia</button>
             </div>
-        </nav>   
+        </nav>
     </header>
 
     <!-- Main Layout -->
@@ -55,7 +60,7 @@
         </section>
 
         <!-- Your Business Plan -->
-        <section class="find-your-plan  flex flex-centered">
+        <section class="find-your-plan  flex flex-centered" id="plans">
                 <div class="container-intro input">
                 <h2 id="h2-radio">Trova il piano business che fa per te</h2>
                     <input type="radio" name="bill" id="bill" value="week">
@@ -127,7 +132,7 @@
         <!-- Team contact seller office -->
         <section id="bottom-cards" class="seller-office">
             <article class="bottom-cards">
-                <div class="singolo user flex-center">
+                <div class="singolo user flex-center" id="team">
                     <i class="fa-solid fa-building"></i>
                     <span>Team</span>
                 </div>
