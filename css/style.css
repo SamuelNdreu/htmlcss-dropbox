@@ -29,7 +29,7 @@ main{
 footer{
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 28.6rem;
+    height: 31.9rem;
     line-height: 300%;
     font-size: 0.8rem;
 }
@@ -42,6 +42,11 @@ footer ul li:hover{
 }
 footer hr{
     width: 10%;
+    margin-left: 4rem;
+}
+
+footer i{
+    margin-left: 4rem;
 }
 
 .flex{
@@ -549,6 +554,31 @@ section#enterprise-bottom{
 div.info{
         line-height: 3;
         padding: 0 1rem 1rem 1rem;
+}
+
+/* Icons */
+
+aside{
+    list-style-type: none;
+    color: white;
+    line-height: 150%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+aside ul li{
+    display:inline-block;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 102, 255);
+    
+}
+
+aside.socials-ico{
+}
+ul.socials{
+    margin-top:1rem;
+    
 }
 
 
