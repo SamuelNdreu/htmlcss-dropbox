@@ -256,9 +256,8 @@ div button.trial-download:hover{
 
 section button.partner{
     color: rgb(0, 0, 0);
-    background-color: #fafcff;
-    padding: 1rem 2rem;
-    border: solid 1 px black;
+    padding: 0.8rem 1.2rem;
+    border:  1px solid black;
 }
 .login-button{
     color: white;
@@ -427,13 +426,13 @@ div.square p{
 }
 
 div.img-partner{
-    width: 35%;
+    width: 32%;
     height: 30rem;
     /* border: 3px dotted violet; */
 }
 
 div.find-partner{
-    width: 22%;
+    width: 20%;
     height: 30rem;
     /* border:1px solid black; */
     
