@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1500px;
 }
 
 header{
@@ -32,11 +33,11 @@ footer{
     font-size: 0.8rem;
 }
 footer ul li{
-    color: #0061ff;
+    color: #ffffff;
     cursor: pointer;
 }
 footer ul li:hover{
-    color: white
+    color: rgb(150, 148, 148)
 }
 footer hr{
     width: 10%;
@@ -161,7 +162,8 @@ h5{
 }
 
 p{
-padding: 2rem 0;}
+padding: 2rem 0;
+text-indent: 1.2rem;}
 
 p.grey{
     padding: 0%;
@@ -201,6 +203,9 @@ div.img-jumbo{
     padding-top: 5.8rem;
     /* background-color: #61082b; */
     
+}
+div.indent{
+    text-indent: 1.2rem;
 }
 
 
@@ -516,6 +521,7 @@ nav#top-nav{
     height: 80px;
     width: 100%;
     justify-content: space-between;
+    z-index: 1;
 
 }
 #left-side,
@@ -568,7 +574,7 @@ aside ul li{
     display:inline-block;
     margin: 0.5rem;
     font-size: 1.5rem;
-    color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
     
 }
 
