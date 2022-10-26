@@ -95,6 +95,8 @@ a:hover{
     max-width: 1250px;
     margin: 0 auto;
 }
+
+
 /* section ul li{
     list-style-type: none;
     display: inline;
@@ -134,6 +136,14 @@ h2{
     margin-bottom: 3rem;
     font-size: 2.5rem;
     
+}
+#h2-radio{
+    text-align: start;
+    margin-left: 1rem;
+}
+#operation-h2{
+    text-align: start;
+    margin-left: 6rem;
 }
 h3{
     font-size: xx-large;
@@ -219,9 +229,10 @@ article.enterprise{
 button.inizia{
     color: white;
     background-color: #0061ff;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.1rem;
     border: none;
     cursor: pointer;
+    font-size: 1.1rem;
 }
 button.inizia:hover{
     color: black;
@@ -259,17 +270,8 @@ section button.partner{
     padding: 0.8rem 1.2rem;
     border:  1px solid black;
 }
-.login-button{
-    color: white;
-    background-color: #636466;
-    padding: 0.5rem 1rem;
-    border: none;
-    cursor: pointer;
-}
-button.login-button:hover{
-    color: black;
-    background-color: #ff0000;
-}
+
+
 
 .style-button{
     color: white;
@@ -321,12 +323,19 @@ div.operations{
     
 }
 section h2{
-    text-align: center;
+    
     margin-top: 8rem;
     
 }
 
+section#clients{
+    margin-bottom: 10rem;
+}
 section#clients h2{
+    margin-bottom: 4rem;
+    margin-left: 7rem;
+}
+section#clients a{
     margin-bottom: 2rem;
 }
 
@@ -371,6 +380,10 @@ div.tool{
     width: 20rem;
     /* border: 2px dotted lime; */
     margin: 2rem;
+}
+div.container a{
+    margin-left: 7rem;
+    
 }
 
 div.tool img{
@@ -506,7 +519,8 @@ nav#top-nav{
 #right-side{
     width: 50%;
     align-items: center;
-    font-size: 1.1rem;   
+    font-size: 1rem;
+    font-weight: 200;  
 }
 #right-side{
     justify-content: flex-end;
