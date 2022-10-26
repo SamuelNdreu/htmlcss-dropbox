@@ -21,6 +21,9 @@ header a{
 header a:hover{
     color:#0061ff
 }
+main{
+    padding-top: 80px;
+}
 
 
 footer{
@@ -149,16 +152,17 @@ p.grey{
 }
 
 section.jumbo{
-    height: 47rem;
+    height: 47.5rem;
     background-color: #b4d0e7;
 
 }
 
 div.jumbotron{
     /* border: 2px dashed rgb(0, 0, 0); */
-    height: 500px;
+    height: 466px;
     margin-top: 2rem;
     justify-content: center;
+    width: 55%;
     
     
 }
@@ -167,15 +171,19 @@ div.trial{
     width: 30%;
     /* border: 2px dotted lime; */
 }
+div.trial p{
+    font-size: 0.95rem;
+}
 
 div.img-jumbo{
-    width: 70%;
+    width: 100%;
     /* border: 2px dotted lime; */
     background-image: url(../imgs/jumbo.png); 
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5rem;
+    padding-top: 5.8rem;
     /* background-color: #61082b; */
+    
 }
 div.img-partner{
 background-image: url(../imgs/partner.png);
@@ -218,6 +226,7 @@ div button.download{
     background-color: #0061ff;
     padding: 1rem 2rem;
     border: none;
+    
 }
 div button.download:hover{
     background-color: #707070;
@@ -337,7 +346,7 @@ section.footer ul li{
 
 section.seller-office{
     height: 15rem;
-    width: 68rem;
+    width: 66rem;
     border:1px solid rgb(151, 151, 151);
     margin: 5rem auto;  
 }
@@ -383,6 +392,15 @@ div.mini-square{
     width: 50%;
     height: 50%;
     /* background-color: #0061ff; */
+    position: relative;
+}
+div.mini-square img{
+    max-width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1)
 }
 div.square hr.hr-color{
     position: absolute;
@@ -430,71 +448,36 @@ div.input{
 
 
 
-
-/* Square section ONE BY ONE */ 
+/* 
+ Square section ONE BY ONE  */
 div.designit{
     background-color: #a2d39b;
-    border: 1rem solid #d1e9cd;
-    background-image: url(../imgs/designit.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-    
-    
-    
+    border: 1rem solid #d1e9cd; 
 }
 div.arizona{
         background-color: #61082b;
-        background-image: url(../imgs/arizona_state_university.svg);
-        background-repeat: no-repeat;
-        background-size: 50%;
-        background-position: center;
         
 }
 div.un-florida{
     background-color: #0061ff;
-    background-image: url(../imgs/university_of_florida.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
     
 }
 div.topps{
     background-color: #ff1c1c;
-    background-image: url(../imgs/topps.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
 }
 div.wbr{
     background-color:#d5001f;
-    background-image: url(../imgs/world_bicycle_relief.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
 
 }
 div.hearst{
     background-color: #b4d0e7;
-    background-image: url(../imgs/hearst_corp.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
 }
 div.lonely-planet{
     background-color: rgb(13, 36, 129);
-    background-image: url(../imgs/lonely_planet.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
 }
 div.clearchannel{
     background-color: rgb(255, 216, 48);
-    background-image: url(../imgs/clear_channel.svg);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
-}
+} 
 img.big-designit{
     width: 300px;
     height: 200px;
