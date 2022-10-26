@@ -24,8 +24,6 @@ header a:hover{
 main{
     padding-top: 80px;
 }
-
-
 footer{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -464,13 +462,17 @@ div.singolo{
     text-align: center;
 }
 
-div.input{
+/* div.input{
     text-align: start;
     margin: 2rem;
     font-size: 1.1rem;
+} */
+
+input{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3rem;
 }
-
-
 
 /* 
  Square section ONE BY ONE  */
@@ -577,8 +579,7 @@ aside ul li{
 aside.socials-ico{
 }
 ul.socials{
-    margin-top:1rem;
-    
+    margin-top:1rem;  
 }
 
 
