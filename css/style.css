@@ -120,7 +120,7 @@ a:hover{
     background-color: transparent;
 }
 
-/* Font section */
+/* Font */
 
 h1{
     font-weight: 800;
@@ -348,7 +348,7 @@ section.free-trial{
 }
 
 section.faq{
-    margin: 5rem auto;
+    margin: 10rem auto;
 }
 
 section.footer{
