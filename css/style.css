@@ -393,11 +393,8 @@ div.tool{
     margin: 2rem;
 }
 
-div.tool.layer{
-    background:linear-gradient(#03a9f4, #e91ee3);
-    z-index:1;
-    transition:0.5s;
-}
+
+
 div.container a{
     margin-left: 7rem;
     
